@@ -38,10 +38,10 @@ Al abrir un video, se muestra el framerate de la ventana. Al añadir máscaras d
 #### Escala de grises
 Mediante el botón sc, ponemos la imagen o el video en escala de grises, esto se logra calculando el rgb de cada píxel y dividirlo entre 3
 #### Mascaras de convolución
-Hay 3 mascaras de convolución a escoger para imagen o video
--c1: Emboss, sensación de profundidad.
--c2: detección de bordes.
--c3: sharpen, la imagen parece más vivida.
+Hay 3 mascaras de convolución a escoger para imagen o video.
+- c1: Emboss, sensación de profundidad.
+- c2: detección de bordes.
+- c3: sharpen, la imagen parece más vivida.
 #### Segmentación por histograma
 Se muestra el histograma de brillo de la imagen, ya este modificada o no.
 Se puede seleccionar un rango entre 0 y 255 y dar clic en seg para segmentar la imagen dentro del rango seleccionado, es decir, pintar únicamente los pixeles dentro de ese rango.
