@@ -3,6 +3,6 @@
 ### Integrantes
 
 - Diego Duarte Camacho
-- David Santiago Gantiva Castillo
-- Sergio Andres Ayala Cabrera
+- David Santiago Gantiva Castro
+- Sergio Andres Ayala Castillo
 - Cristian Giovanny Laiton Gonzalez
