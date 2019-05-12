@@ -91,6 +91,8 @@ void mousePressed()
     }
   } else if (seleccion==1) {
     mousePressed1();
+  }else if (seleccion==7) {
+    mousePressed2();
   }
 }
 
