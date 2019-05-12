@@ -26,7 +26,7 @@ Complete la tabla:
 
 | Ilusión | Categoria | Referencia | Tipo de interactividad (si aplica) | URL c�digo base (si aplica) |
 |---------|-----------|------------|------------------------------------|-----------------------------|
-|Rotate Square|ambigua| Brathing Square, George Mather http://www.georgemather.com/MotionDemos/BreathingQT.html| al hacer click, la perspectiva cambia a detras de una rejilla que solo deja ver una parte del cuadrado, el cuadrado y la rejilla cambian de color, el cuadrado aleatoriamente y la rejilla su opuesto|https://github.com/VisualComputing/Cognitive/blob/gh-pages/sketches/rotateSquare.js|
+|Breathing Square|ambigua| Breathing Square, George Mather http://www.georgemather.com/MotionDemos/BreathingQT.html| al hacer click, la perspectiva cambia a detras de una rejilla que solo deja ver una parte del cuadrado, el cuadrado y la rejilla cambian de color, el cuadrado aleatoriamente y la rejilla su opuesto|https://github.com/VisualComputing/Cognitive/blob/gh-pages/sketches/rotateSquare.js|
 |Ilusión de Hering| Geometrica | las dos rectas paralelas parecen curvarse alrededor del centro del haz radiado https://en.wikipedia.org/wiki/Hering_illusion|                                    |                             |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
