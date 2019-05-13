@@ -31,6 +31,7 @@ Complete la tabla:
 |Grid illusion|PHYSIOLOGICAL|https://en.wikipedia.org/wiki/Grid_illusion|                                    |                             |
 |Lilac chaser|Otros|https://en.wikipedia.org/wiki/Lilac_chaser|                                    |                             |
 |Stepping Feet Illusion|Movement|https://en.wikipedia.org/wiki/Stepping_Feet_Illusion|Al hacer click, se ocultan o se muestran las barras verticales, dependiendo del estado el cual se encuentra actualmente|                             |
+| Motion Parallax |Geométrica |Motion Parallax Explained https://isle.hanover.edu/Ch07DepthSize/Ch07MotionParallaxExpl.html | Al mantener precionado el click, se produce un movimiento de cuadrados de diferente tamaño y velocidad, lo cual causa que los cuadrados mas grandes y rapidos parezcan mas cercanos que los mas pequeños y lentos | https://forum.processing.org/two/discussion/16806/optical-illusion                            |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
