@@ -27,10 +27,11 @@ Complete la tabla:
 | Ilusión | Categoria | Referencia | Tipo de interactividad (si aplica) | URL código base (si aplica) |
 |---------|-----------|------------|------------------------------------|-----------------------------|
 |Breathing Square|ambigua| Breathing Square, George Mather http://www.georgemather.com/MotionDemos/BreathingQT.html| al hacer click, la perspectiva cambia a detras de una rejilla que solo deja ver una parte del cuadrado, el cuadrado y la rejilla cambian de color, el cuadrado aleatoriamente y la rejilla su opuesto|https://github.com/VisualComputing/Cognitive/blob/gh-pages/sketches/rotateSquare.js|
-|Ilusión de Hering| Geométrica | las dos rectas paralelas parecen curvarse alrededor del centro del haz radiado https://en.wikipedia.org/wiki/Hering_illusion| al hacer click, desaparece el haz de lineas, mostrando las lineas paralelas  |                             |
+|Ilusión de Hering| Geométrica | las dos rectas paralelas parecen curvarse alrededor del centro del haz radiado https://www.ncbi.nlm.nih.gov/pmc/articles/PMC544621/| al hacer click, desaparece el haz de lineas, mostrando las lineas paralelas  |                             |
 |Grid illusion|PHYSIOLOGICAL|https://www.illusionsindex.org/i/hermann-grid|                                    |                             |
 |Lilac chaser|Otros|https://www.verywellmind.com/the-lilac-chaser-illusion-4111051|                                    |                             |
 |Stepping Feet Illusion|Movement|https://michaelbach.de/ot/mot-feetLin/index.html|Al hacer click, se ocultan o se muestran las barras verticales, dependiendo del estado el cual se encuentra actualmente|                             |
+| Motion Parallax |Geométrica |Motion Parallax Explained https://isle.hanover.edu/Ch07DepthSize/Ch07MotionParallaxExpl.html | Al mantener precionado el click, se produce un movimiento de cuadrados de diferente tamaño y velocidad, lo cual causa que los cuadrados mas grandes y rapidos parezcan mas cercanos que los mas pequeños y lentos | https://forum.processing.org/two/discussion/16806/optical-illusion                            |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
