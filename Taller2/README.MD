@@ -38,7 +38,7 @@ Complete la tabla:
 
 2. Describa brevememente las referencias estudiadas y los posibles temas en los que le gustaría profundizar.
 
-Las referencias estudiadas se encargan de explicar la lógica detrás de las ilusiones y como funcionan, es decir, de como y porque nuestro cerebro percibe objetos o situaciones de manera errónea o distinta a como es verdaderamente. Por ejemplo, en *Natural-scene geometry predicts the perception of angles* and line orientación de Catherine Q. Howe and Dale Purves(2005), explican algunas ilusiones geométricas y su relación con el mundo real, principalmente de como percibimos ángulos donde no los hay y realizan un estudio de la probabilidad de observar estos ángulos.
+Las referencias estudiadas se encargan de explicar la lógica detrás de las ilusiones y como funcionan, es decir, de como y porque nuestro cerebro percibe objetos o situaciones de manera errónea o distinta a como es verdaderamente. Por ejemplo, en *Natural-scene geometry predicts the perception of angles* and line orientación de Catherine Q. Howe and Dale Purves(2005), explican algunas ilusiones geométricas y su relación con el mundo real, principalmente de como percibimos ángulos donde no los hay y realizan un estudio de la probabilidad de observar estos ángulos.<br/>
 Al observar distintas ilusiones para realizar el taller, la que mas nos llamaron la atención son las ambiguas, pues estas suelen mostrar 2 o mas situaciones que ambas parecen ser igual de reales y posibles, sin embargo, sabemos que es imposible que sea ambas y solo una es la verdadera.
 
 
