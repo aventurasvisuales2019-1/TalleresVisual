@@ -32,7 +32,7 @@ Complete la tabla:
 |Lilac chaser|Otros|https://www.verywellmind.com/the-lilac-chaser-illusion-4111051|                                    |                             |
 |Stepping Feet Illusion|Movement|https://michaelbach.de/ot/mot-feetLin/index.html|Al hacer click, se ocultan o se muestran las barras verticales, dependiendo del estado el cual se encuentra actualmente|                             |
 | Motion Parallax |Geométrica |Motion Parallax Explained https://isle.hanover.edu/Ch07DepthSize/Ch07MotionParallaxExpl.html | Al mantener precionado el click, se produce un movimiento de cuadrados de diferente tamaño y velocidad, lo cual causa que los cuadrados mas grandes y rapidos parezcan mas cercanos que los mas pequeños y lentos | https://forum.processing.org/two/discussion/16806/optical-illusion                            |
-|         |           |            |                                    |                             |
+|Spinning Dancer|Ambigua|https://www.vice.com/en_us/article/3db4pw/is-this-woman-spinning-left-or-right|                                    |                             |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
 
