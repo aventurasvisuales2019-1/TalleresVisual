@@ -30,7 +30,7 @@ Complete la tabla:
 |Ilusión de Hering| Geométrica | las dos rectas paralelas parecen curvarse alrededor del centro del haz radiado https://en.wikipedia.org/wiki/Hering_illusion| al hacer click, desaparece el haz de lineas, mostrando las lineas paralelas  |                             |
 |Grid illusion|PHYSIOLOGICAL|https://en.wikipedia.org/wiki/Grid_illusion|                                    |                             |
 |Lilac chaser|Otros|https://en.wikipedia.org/wiki/Lilac_chaser|                                    |                             |
-|Stepping Feet Illusion|Movement|https://en.wikipedia.org/wiki/Stepping_Feet_Illusion|Al hacer click |Al hacer click, se ocultan o se muestran las barras verticales, dependiendo del estado el cual se encuentra actualmente|
+|Stepping Feet Illusion|Movement|https://en.wikipedia.org/wiki/Stepping_Feet_Illusion|Al hacer click, se ocultan o se muestran las barras verticales, dependiendo del estado el cual se encuentra actualmente|                             |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
 |         |           |            |                                    |                             |
