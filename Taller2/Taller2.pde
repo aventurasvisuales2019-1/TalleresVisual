@@ -2,12 +2,12 @@ int seleccion=0;
 int sep=10;
 int butwid=100;
 int buthei=50;
-Button b1 = new Button("Rotate Square", 50, 20, butwid, buthei);
-Button b2 = new Button("Click Me", 50, 20+(buthei+sep)*1, butwid, buthei);
+Button b1 = new Button("Breathing Square", 50, 20, butwid, buthei);
+Button b2 = new Button("Motion Parallax", 50, 20+(buthei+sep)*1, butwid, buthei);
 Button b3 = new Button("Bailarina", 50, 20+(buthei+sep)*2,  butwid, buthei);
-Button b4 = new Button("Movimiento", 50, 20+(buthei+sep)*3,  butwid, buthei);
-Button b5 = new Button("Circulo", 50, 20+(buthei+sep)*4,  butwid, buthei);
-Button b6 = new Button("Cuadricula", 50, 20+(buthei+sep)*5,  butwid, buthei);
+Button b4 = new Button("Stepping Feet", 50, 20+(buthei+sep)*3,  butwid, buthei);
+Button b5 = new Button("Lilac Chaser", 50, 20+(buthei+sep)*4,  butwid, buthei);
+Button b6 = new Button("Grid", 50, 20+(buthei+sep)*5,  butwid, buthei);
 Button b7 = new Button("Figura de Hering", 50, 20+(buthei+sep)*6,  butwid, buthei);
 
 void setup() {
