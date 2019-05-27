@@ -25,6 +25,9 @@ String renderer = P3D;
 int dim = 9;
 
 ArrayList<Vector> arr;
+ArrayList<Float> red;
+ArrayList<Float> green;
+ArrayList<Float> blue;
 
 int squareSize;
 
@@ -64,6 +67,9 @@ void setup() {
   // init the triangle that's gonna be rasterized
   randomizeTriangle();
   arr = new ArrayList<Vector>();
+  red= new ArrayList<Float>();
+  green= new ArrayList<Float>();
+  blue= new ArrayList<Float>();
   calcPoints();
 }
 
