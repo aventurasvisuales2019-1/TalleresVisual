@@ -11,11 +11,11 @@ Vector v1, v2, v3;
 TimingTask spinningTask;
 boolean yDirection;
 // scaling is a power of 2
-int n = 4;
+int n = 5;
 
 // 2. Hints
 boolean triangleHint = true;
-boolean gridHint = true;
+boolean gridHint = false;
 boolean debug = true;
 
 // 3. Use FX2D, JAVA2D, P2D or P3D
@@ -28,6 +28,7 @@ ArrayList<Vector> arr;
 ArrayList<Float> red;
 ArrayList<Float> green;
 ArrayList<Float> blue;
+ArrayList<Float> alpha;
 
 int squareSize;
 
@@ -70,6 +71,7 @@ void setup() {
   red= new ArrayList<Float>();
   green= new ArrayList<Float>();
   blue= new ArrayList<Float>();
+  alpha= new ArrayList<Float>();
   calcPoints();
 }
 
@@ -120,12 +122,12 @@ void keyPressed() {
   if (key == 'd')
     debug = !debug;
   if (key == '+') {
-    n = n < 7 ? n+1 : 2;
+    n = n < 9 ? n+1 : 2;
     node.setScaling(width/pow( 2, n));
     calcPoints();
   }
   if (key == '-') {
-    n = n >2 ? n-1 : 7;
+    n = n >2 ? n-1 : 9;
     node.setScaling(width/pow( 2, n));
     calcPoints();
   }
@@ -139,4 +141,10 @@ void keyPressed() {
       spinningTask.run(20);
   if (key == 'y')
     yDirection = !yDirection;
+  if (key == 'a')
+    as = !as;
+    calcPoints();
+  if (key == 'c')
+    colorized = !colorized;
+    calcPoints();
 }
