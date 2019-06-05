@@ -18,4 +18,5 @@ Complete la tabla:
  
  ### Referencias 
  [Antialiasing strategies](https://web.cs.wpi.edu/~matt/courses/cs563/talks/antialiasing/methods.html)
+ [Antialising comparision](https://sapphirenation.net/anti-aliasing-comparison-performance-quality/)
 
