@@ -15,7 +15,7 @@ Complete la tabla:
 ## Discusión
 
  El objetivos para este taller fueron: 
- 1. Rasterizar un triangulo
+ 1. Rasterizar un triangulo con cordenadas baricentricas
  2. Sombrear la superficie del triangulo a partir de los colores de los vertices
  3. Implementacion de un algoritmo de antialiasing 
  
@@ -31,7 +31,7 @@ Complete la tabla:
  
  ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/antialisingExplain.png "Algoritmo")
  
- Antialising:
+ Anti-Aliasing :
  
  ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/antialising.png "Antialising")
 
