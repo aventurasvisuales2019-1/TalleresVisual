@@ -43,5 +43,5 @@ Complete la tabla:
  
  [Antialising comparision](https://sapphirenation.net/anti-aliasing-comparison-performance-quality/)
  
- [How To Choose the Right Anti-Aliasing Mode for Your GPU] (https://www.tested.com/tech/pcs/1194-how-to-choose-the-right-anti-aliasing-mode-for-your-gpu/)
+ [How To Choose the Right Anti-Aliasing Mode](https://www.tested.com/tech/pcs/1194-how-to-choose-the-right-anti-aliasing-mode-for-your-gpu/)
 
