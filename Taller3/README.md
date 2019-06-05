@@ -29,6 +29,8 @@ Complete la tabla:
  
  Algoritmo de Anti-Aliasing :
  
+Los píxeles individuales se dividen en múltiples muestras de cobertura. Al analizar el color de los píxeles que rodean cada una de estas muestras, se produce un promedio, que determina el color general del píxel original.
+ 
  ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/antialisingExplain.png "Algoritmo")
  
  Anti-Aliasing :
