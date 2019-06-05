@@ -42,4 +42,6 @@ Complete la tabla:
  [Antialiasing strategies](https://web.cs.wpi.edu/~matt/courses/cs563/talks/antialiasing/methods.html)
  
  [Antialising comparision](https://sapphirenation.net/anti-aliasing-comparison-performance-quality/)
+ 
+ [How To Choose the Right Anti-Aliasing Mode for Your GPU] (https://www.tested.com/tech/pcs/1194-how-to-choose-the-right-anti-aliasing-mode-for-your-gpu/)
 
