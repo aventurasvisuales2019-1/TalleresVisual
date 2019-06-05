@@ -21,7 +21,11 @@ Complete la tabla:
  
  Raster:
  
- ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/raster.png "Raster")
+ ![alt text]( https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/raster1.png "Raster")
+ 
+ Sombreado de superficie:
+ 
+ ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/raster.png "Sombreado")
  
  Antialising:
  
