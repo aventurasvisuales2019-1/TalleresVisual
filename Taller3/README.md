@@ -14,7 +14,11 @@ Complete la tabla:
 
 ## Discusión
 
- sería el entender los conceptos de Rasterizar y los distintos métodos que se usan
+ El objetivos para este taller fueron: 
+ 1. Rasterizar un triangulo
+ 2. Sombrear la superficie del triangulo a partir de los colores de los vertices
+ 3. Implementacion de un algoritmo de antialiasing 
+ 
  
  ### Referencias 
  [Antialiasing strategies](https://web.cs.wpi.edu/~matt/courses/cs563/talks/antialiasing/methods.html)
