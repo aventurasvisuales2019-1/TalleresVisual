@@ -14,5 +14,8 @@ Complete la tabla:
 
 ## Discusión
 
-Describa los resultados obtenidos. En el caso de anti-aliasing describir las técnicas exploradas, citando las referencias.
+ sería el entender los conceptos de Rasterizar y los distintos métodos que se usan
+ 
+ ### Referencias 
+ [Antialiasing strategies](https://web.cs.wpi.edu/~matt/courses/cs563/talks/antialiasing/methods.html)
 
