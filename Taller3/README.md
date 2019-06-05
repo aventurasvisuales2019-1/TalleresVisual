@@ -19,6 +19,16 @@ Complete la tabla:
  2. Sombrear la superficie del triangulo a partir de los colores de los vertices
  3. Implementacion de un algoritmo de antialiasing 
  
+ Raster:
+ 
+ ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/raster.png "Raster")
+ 
+ Antialising:
+ 
+ ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/antialising.png "Antialising")
+
+ 
+ 
  
  ### Referencias 
  [Antialiasing strategies](https://web.cs.wpi.edu/~matt/courses/cs563/talks/antialiasing/methods.html)
