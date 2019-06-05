@@ -27,7 +27,7 @@ Complete la tabla:
  
  ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/raster.png "Sombreado")
  
- Antialising algoritmo:
+ Algoritmo de Anti-Aliasing :
  
  ![alt text](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller3/antialisingExplain.png "Algoritmo")
  
