@@ -24,5 +24,7 @@ Complete la tabla:
 
 ## Informe
 
+Se realizo la implementacion de luz especular junto a luz difuso sobre un objeto cilindrico.
+
 
 
