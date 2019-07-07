@@ -28,6 +28,8 @@ Se realizo la implementacion de luz especular junto a luz difuso sobre un objeto
 
 ![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
 
+El mapeo de vectores normal se realizo con ayuda de la pagina que se encuentra en el siguiente link: 
+https://cpetry.github.io/NormalMap-Online/
 
 ![Image of Normal Vector mapping](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/norm%20(copy).jpg)
 
