@@ -26,5 +26,6 @@ Complete la tabla:
 
 Se realizo la implementacion de luz especular junto a luz difuso sobre un objeto cilindrico.
 
+![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
 
 
