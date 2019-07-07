@@ -15,7 +15,6 @@ void setup() {
 }
 
 void draw() {
-  println(maskSelected);
   pg.beginDraw();
   pg.image(mov, 0, 0);
   pg.loadPixels();

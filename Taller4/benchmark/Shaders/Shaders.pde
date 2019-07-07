@@ -17,7 +17,7 @@ void settings() {
 
 void setup() {  
   video = new Movie(this, "videoplayback.mp4");
-  video.loop();
+  video.play();
   convShader = loadShader("convfrag.glsl");
   background(0);
   pg=createGraphics(1920, 1080, P2D);
@@ -52,7 +52,7 @@ PShape createWindow(int imageW, int imageH, PImage texture, int detail) {
   for (int i = 0; i <= detail; i++) {
     float u = float(i) / detail;
     float x = (imageW / detail) * i;
-    wd.normal(1, 0, 1); // Out side in plane z-x
+    wd.normal(1, 0, 1); // Out side in plane z-x //<>//
     wd.vertex(x, -imageH/2, 1, u, 0);
     wd.vertex(x, imageH/2, 1, u, 1);
   }
