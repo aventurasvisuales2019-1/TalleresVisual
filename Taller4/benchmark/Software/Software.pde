@@ -3,24 +3,26 @@ Movie mov;
 PGraphics pg;
 int maskSelected = 1;
 boolean showMask = false;
+int sumaFrames;
+int numeroFrames;
 
 void setup() {
   size(1100, 500);
   mov = new Movie(this, "videoplayback.mp4");
-  mov.loop();
+  mov.play();
   background(0);
   pg=createGraphics(1920, 1080);
 }
 
 void draw() {
-  println(maskSelected);
   pg.beginDraw();
   pg.image(mov, 0, 0);
   pg.loadPixels();
   if (showMask) {
     if (maskSelected==1) {
       //convolucion 1
-      float[][] matrix = { { -2, -1, 0 }, 
+      float[][] matrix =
+        { { -2, -1, 0 }, 
         { -1, 1, 1 }, 
         { 0, 1, 2 } }; 
       int matrixsize = 3;
@@ -33,7 +35,8 @@ void draw() {
       }
     } else if (maskSelected==2) {
       //convolucion 2
-      float[][] matrix = { { -1, -1, -1 }, 
+      float[][] matrix = 
+        { { -1, -1, -1 }, 
         { -1, 8, -1 }, 
         { -1, -1, -1 } }; 
       int matrixsize = 3;
@@ -46,7 +49,8 @@ void draw() {
       }
     } else if (maskSelected==3) {
       //convolucion 3
-      float[][] matrix = { { 0, -1, 0 }, 
+      float[][] matrix =
+        { { 0, -1, 0 }, 
         { -1, 5, -1 }, 
         { 0, -1, 0 } }; 
       int matrixsize = 3;
@@ -64,10 +68,13 @@ void draw() {
   pg.text(this.frameRate, mov.width-map(50, 0, 640, 0, mov.width), map(30, 0, 640, 0, mov.width));
   pg.endDraw(); 
   image(pg, 0, 0, 1100, 500);
+  println(sumaFrames/numeroFrames);
 }
 
 void movieEvent(Movie m) {
   m.read();
+  numeroFrames++;
+  sumaFrames+=round(frameRate);
 }
 
 color convolution(int x, int y, float[][] matrix, int matrixsize, PImage img)

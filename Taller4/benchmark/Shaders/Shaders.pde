@@ -7,8 +7,8 @@ PShape window;
 PShader convShader;
 int maskSelected = 1;
 boolean showMask = false;
-float ballX;
-float ballY;
+int sumaFrames;
+int numeroFrames;
 
 void settings() {
   size(1200, 600, P2D);
@@ -17,7 +17,7 @@ void settings() {
 
 void setup() {  
   video = new Movie(this, "videoplayback.mp4");
-  video.loop();
+  video.play();
   convShader = loadShader("convfrag.glsl");
   background(0);
   pg=createGraphics(1920, 1080, P2D);
@@ -29,16 +29,18 @@ void draw() {
   convShader.set("showMask", showMask);
   translate(50, height/2);
   if (video.available()) {
+    numeroFrames++;
+    sumaFrames+=round(frameRate);
     pg.beginDraw();
-    pg.image(video, 0, 0);
+    pg.image(video, 0, 0,pg.width,pg.height);
     pg.textSize(40);
-    pg.text(frameRate, 50, 50);
+    pg.text(round(frameRate), 50, 50);
     pg.endDraw();
     video.read();
     window  = createWindow(1100, 500, pg, 100);
     shape(window);
-    ballX = mouseX;
-    ballY = mouseY;
+  }else{
+    println(sumaFrames/numeroFrames);
   }
 }
 PShape createWindow(int imageW, int imageH, PImage texture, int detail) {
@@ -50,7 +52,7 @@ PShape createWindow(int imageW, int imageH, PImage texture, int detail) {
   for (int i = 0; i <= detail; i++) {
     float u = float(i) / detail;
     float x = (imageW / detail) * i;
-    wd.normal(1, 0, 1); // Out side in plane z-x
+    wd.normal(1, 0, 1); // Out side in plane z-x //<>//
     wd.vertex(x, -imageH/2, 1, u, 0);
     wd.vertex(x, imageH/2, 1, u, 1);
   }
@@ -71,9 +73,6 @@ void handleKeyPress(char pressed) {
     maskSelected = 2;
   }
   if (pressed == '3') {
-    maskSelected = 2;
-  }
-  if (pressed == '4') {
-    maskSelected = 2;
+    maskSelected = 3;
   }
 }

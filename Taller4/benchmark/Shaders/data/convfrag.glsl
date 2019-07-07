@@ -12,6 +12,8 @@ uniform int maskSelected; // Passing with Set function
 varying vec4 vertColor;
 varying vec4 vertTexCoord;
 
+const vec4 lumcoeff = vec4(0.299, 0.587, 0.114, 0);
+
 void main() {
   
   vec2 tc0 = vertTexCoord.st + vec2(-texOffset.s, -texOffset.t);
@@ -34,25 +36,34 @@ void main() {
   vec4 col7 = texture2D(texture, tc7);
   vec4 col8 = texture2D(texture, tc8);
 
-  vec4 sum =  texture2D(texture, vertTexCoord.st) * vertColor ;
+  vec4 sum =  texture2D(texture, vertTexCoord.st)  ;
   /*
     EDGE DETECTION
     | -1 -1 -1 |
     | -1  8 -1 |
     | -1 -1 -1 |
   */
-  if (showMask && maskSelected == 1) {
+  if (showMask && maskSelected == 2) {
     sum = 8.0 * col4 - (col0 + col1 + col2 + col3 + col5 + col6 + col7 + col8);
   }
   
   /*
-    Gaussian Blur 3x3
-      1    | 1 2 1 |
-     --- * | 2 4 2 |
-      16   | 1 2 1 |
+    Emboss
+    | -2 -1 0 |
+    | -1 1 1 |
+    | 0 1 2 |
   */
-  if (showMask && maskSelected == 2) {
-    sum = ((col0 + col2 + col6 + col8) * 0.0625) + ((col1 + col3 + col5 + col7) * 0.125) + (col4 *0.25);
+  if (showMask && maskSelected == 1) {
+    sum = (( col2 + col6) * 0) + ((col4 + col5 + col7) * 1) + ((col1+col3) *-1)+(col0*-2)+(col8*2);
+  }
+  /*
+    Sharpen
+    | 0 -1 0 |
+    | -1 5 -1 |
+    | 0 -1 0 |
+  */
+  if (showMask && maskSelected == 3) {
+    sum = ((col0 + col2 + col6 + col8) * 0) + ((col1 + col3 + col5 + col7) * -1) + (col4 *5);
   }
   gl_FragColor = vec4(sum.rgb, 1.0);
 }
