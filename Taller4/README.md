@@ -24,7 +24,7 @@ Complete la tabla:
 
 ## Informe
 
-Se realizo la implementacion de luz especular junto a luz difuso sobre un objeto cilindrico.
+Se realizo la implementacion de luz especular junto a luz difusa y luz ambiental sobre un objeto cilindrico.
 
 ![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
 
