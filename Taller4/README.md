@@ -32,7 +32,11 @@ Para la realizacion de la luz difusa, se uso el producto punto entre la direccio
 
 Para la luz especular, se realizao el producto punto entre la direccion de la luz que es reflejada, y la direccion del observador.
 
-![Point two](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/punto2Screenshot.png)
+<p align="center">
+  <b>Imagen con mapeo de vectores normales</b><br>
+  <br><br>
+  <img src="https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/punto2Screenshot.png">
+</p>
 
 # Punto 3
 
