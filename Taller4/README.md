@@ -24,14 +24,26 @@ Complete la tabla:
 
 ## Informe
 
+# Punto 2
+
+Se realizo la implementacion de luz especular junto a luz difusa y luz ambiental sobre un objeto cilindrico, mostrando las fuentes de luz como esperas de color negro en el ambiente.
+
+Para la realizacion de la luz difusa, se uso el producto punto entre la direccion de la luz y el vector normal de los vertices.
+
+Para la luz especular, se realizao el producto punto entre la direccion de la luz que es reflejada, y la direccion del observador.
+
 ![Point two](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/punto2Screenshot.png)
 
-Se realizo la implementacion de luz especular junto a luz difusa y luz ambiental sobre un objeto cilindrico.
+# Punto 3
+
+Para la realizacion de esta parte, se tomo la siguiente imagen:
 
 ![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
 
-El mapeo de vectores normal se realizo con ayuda de la pagina que se encuentra en el siguiente link: 
+Se realizo mapeo de vectores normales con ayuda de la pagina que se encuentra en el siguiente link: 
 https://cpetry.github.io/NormalMap-Online/
+
+
 
 ![Image of Normal Vector mapping](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/norm%20(copy).jpg)
 
