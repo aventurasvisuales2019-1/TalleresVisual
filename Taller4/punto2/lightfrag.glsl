@@ -1,3 +1,4 @@
+uniform vec3 lightAmbient[8];
 
 varying vec4 vertColor;
 varying vec3 cameraDirection;
@@ -5,20 +6,30 @@ varying vec3 lightDirectionReflected[8];
 varying vec3 lightDirection[8]; 
 varying vec3 ecNormal;
 
+
 void main() {
 	vec3 camera = normalize(cameraDirection);  	
 	vec3 normal = normalize(ecNormal);
 	gl_FragColor = vec4(0,0,0,1)*vertColor;
-	for(int i =0;i<3;i++){
+	for(int i =0;i<4;i++){
 		/*
 			Luz especular
 		*/
 		
-		if(i!=1){
+		if(i!=1 && i!=3){
 
 			vec3 direction_esp = normalize(lightDirectionReflected[i]);
 			float specular_intensity = max(0.0, dot(direction_esp, camera));
 			gl_FragColor = gl_FragColor+vec4(specular_intensity,specular_intensity,specular_intensity,1)*vertColor;
+		}
+		
+		/*
+			LUZ AMBIENTAL
+		*/		
+		else if(i == 3){
+			float ambientStrength = 0.1;
+			gl_FragColor = gl_FragColor+vec4(lightAmbient[i],1.0);
+		
 		}
 		/*
 			LUZ DIFUSA

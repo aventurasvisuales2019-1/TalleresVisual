@@ -2,11 +2,11 @@ uniform mat4 modelview;
 uniform mat4 transform;
 uniform mat3 normalMatrix;
 uniform vec4 lightPosition[8];
+uniform vec3 lightAmbient[8];
 
 attribute vec4 position;
 attribute vec4 color;
 attribute vec3 normal;
-
 
 varying vec3 lightDirection[8]; 
 varying vec4 vertColor;
@@ -20,7 +20,7 @@ void main() {
   vec3 ecNormal = normalize(normalMatrix * normal);
 	cameraDirection = normalize(0 - ecPosition);
 	
-	for(int i=0;i<3;i++){
+	for(int i=0;i<4;i++){
 		lightDirection[i] = normalize(lightPosition[i].xyz - ecPosition);
 		vec3 lightDirection = normalize(lightPosition[i].xyz - ecPosition);
 		lightDirectionReflected[i] = reflect(-lightDirection, ecNormal);
