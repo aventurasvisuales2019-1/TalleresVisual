@@ -37,6 +37,11 @@ Para la luz especular, se realizao el producto punto entre la direccion de la lu
 # Punto 3
 
 Para la realizacion de esta parte, se tomo la siguiente imagen:
+<p align="center">
+  <b>Imagen original</b><br>
+  <br><br>
+  <img src="https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png">
+</p>
 
 ![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
 
@@ -51,12 +56,5 @@ Se uso luz especular, luz ambiental y luz difusa, com fuentes de iluminaciones, 
 
 ![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/screenshot.png)
 
-<p align="center">
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
-  <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
-</p>
+
 
