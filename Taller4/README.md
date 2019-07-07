@@ -43,18 +43,24 @@ Para la realizacion de esta parte, se tomo la siguiente imagen:
   <img src="https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png">
 </p>
 
-![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
 
 Se realizo mapeo de vectores normales con ayuda de la pagina que se encuentra en el siguiente link: 
 https://cpetry.github.io/NormalMap-Online/
 
+<p align="center">
+  <b>Imagen con mapeo de vectores normales</b><br>
+  <br><br>
+  <img src="https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/norm%20(copy).jpg">
+</p>
 
 
-![Image of Normal Vector mapping](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/norm%20(copy).jpg)
+
 
 Se uso luz especular, luz ambiental y luz difusa, com fuentes de iluminaciones, con ayuda del mapa de vectores normales se pudo determinar la intensidad para generar un mejor efecto en la superficie. 
 
-![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/screenshot.png)
-
-
+<p align="center">
+  <b>Resultado final en processing</b><br>
+  <br><br>
+  <img src="https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/screenshot.png">
+</p>
 
