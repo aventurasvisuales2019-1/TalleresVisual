@@ -26,7 +26,7 @@ void draw() {
   
   pointLight(255, 255, 255, width/2, zLigth1, 200);
   pointLight(255, 255, 255, width/2, zLigth2, 200);
-  pointLight(255, 255, 255, mouseX, mouseY, 260);
+  pointLight(255, 255, 255, mouseX, mouseY, xLigth3);
   
   translate(width/2, height/2);
   rotateY(angle);  
@@ -68,20 +68,20 @@ void keyPressed() {
   
   
   if (key == 'q') {
-    zLigth1 += 40;
+    zLigth1 += 100;
   } else if(key == 'w'){
-    zLigth1 -=40;
+    zLigth1 -=100;
   }
   
   if (key == 'a') {
-    zLigth2 += 40;
+    zLigth2 += 100;
   } else if(key == 's'){
-    zLigth2 -=40;
+    zLigth2 -=100;
   }
   
   if (key == 'z') {
-    xLigth3 += 40;
+    xLigth3 += 100;
   } else if(key == 'x'){
-    xLigth3 -=40;
+    xLigth3 -=100;
   }
 }
