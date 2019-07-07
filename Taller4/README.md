@@ -24,6 +24,8 @@ Complete la tabla:
 
 ## Informe
 
+![Point two](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/punto2Screenshot.png)
+
 Se realizo la implementacion de luz especular junto a luz difusa y luz ambiental sobre un objeto cilindrico.
 
 ![Image of elixir](https://github.com/aventurasvisuales2019-1/TalleresVisual/blob/master/Taller4/punto3/data/elixir.png)
