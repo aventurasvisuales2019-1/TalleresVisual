@@ -24,6 +24,10 @@ Complete la tabla:
 
 ## Informe
 
+# Punto 1
+
+Para el benchmark se realiza una comparacion de los fps que eran mostrados al ejecutar una mascara de convolucion sobre un video, con y sin el uso de shaders. Como resultado pudimos observar una notable diferencia, ya que con ciertos videos que sin el uso de shaders llegaban a 3 o 4 fps, con la ayuda de los shaders estos llegaban a unos 60 constantes.
+
 # Punto 2
 
 Se realizo la implementacion de luz especular junto a luz difusa y luz ambiental sobre un objeto cilindrico, mostrando las fuentes de luz como esperas de color negro en el ambiente.
